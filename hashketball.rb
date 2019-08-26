@@ -122,7 +122,7 @@ end
 def get_all_players
   home_players = game_hash[:home][:players]
   away_players = game_hash[:away][:players]
-  retur home_players + away_players
+  return home_players + away_players
 end 
 
 def shoe_size(player_name)
