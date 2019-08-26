@@ -112,11 +112,15 @@ def game_hash
 end
 
 def num_points_scored(player_name)
-  game_hash.values.each do |team_data|
-    team_data[:players].each do |player_hash|
-      return player_hash[:points] if player_hash[:name] == player_name
-    end 
-  end 
+  # 1) Get list of all players 
+  # 2) Iterate trough list of all players 
+  # 3) Return points of all players from step 2 
+  
+  
+end 
+
+def get_all_players
+  
 end 
 
 def shoe_size(player_name)
@@ -230,3 +234,5 @@ def long_name_steals_a_ton?
   end 
   return true if max_steals_player == player_with_longest_name
 end 
+
+binding.pry
