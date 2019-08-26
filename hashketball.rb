@@ -125,6 +125,10 @@ def get_all_players
   return home_players + away_players
 end 
 
+def enumerate_get_all_players
+  
+end 
+
 def shoe_size(player_name)
   game_hash.values.each do |team_data|
     team_data[:players].each do |player_hash|
