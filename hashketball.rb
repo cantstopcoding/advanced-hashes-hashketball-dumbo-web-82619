@@ -241,4 +241,3 @@ def long_name_steals_a_ton?
   return true if max_steals_player == player_with_longest_name
 end 
 
-binding.pry
